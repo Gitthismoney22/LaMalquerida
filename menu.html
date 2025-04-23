@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Menu - La Malquerida</title>
+  <link rel="stylesheet" href="styles.css"/>
+  <link rel="stylesheet" href="nav-horizontal.css" />
+  <link rel="icon" href="images/logo.png" type="image/png"/>
+  <link rel="stylesheet" href="header-logo.css" />
+</head>
+<body>
+  <header>
+  <nav class="page-nav">
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="menu.html">Menu</a></li>
+      <li><a href="about.html">About Us</a></li>
+      <li><a href="reservations.html">Reservations</a></li>
+      <li><a href="contact.html">Contact</a></li>
+      <li><a href="gallery.html">Gallery</a></li>
+      <li><a href="reviews.html">Testimonials</a></li>
+    </ul>
+    <button id="languageToggle" class="language-btn">🌐 ENGLISH / ESPAÑOL</button>
+  </nav>
+  <div class="header-logo-bottom">
+    <img src="images/logo.png" alt="La Malquerida Logo" class="logo-bottom" />
+  </div>
+</header>
+  <main>
+    <div class="filter-buttons">
+      <button data-scroll="drinks">Drinks</button>
+      <button data-scroll="seafood">Seafood</button>
+      <button data-scroll="appetizers">Appetizers</button>
+      <button data-scroll="snacks">Tasty Snacks</button>
+      <button data-scroll="food-menu">Special Food Menu</button>
+      <button data-scroll="special-dishes">Special Dishes</button>
+      <button data-scroll="burritos-meats">Burritos & Meats</button>
+      <button data-scroll="torres">Torres</button>
+    </div>
+    <!-- Drinks -->
+    <section id="drinks" class="menu-section">
+      <h2>Drinks</h2>
+      <div class="menu-grid">
+        <div class="menu-item"><img src="images/paleta-de-sandia.png"/><h3>Paleta De Sandia</h3><p>$10</p></div>
+        <div class="menu-item"><img src="images/mangito.png"/><h3>Mangito</h3><p>$10</p></div>
+        <div class="menu-item"><img src="images/jarrito-loco.png"/><h3>Jarrito Loco</h3><p>$7</p></div>
+        <div class="menu-item"><img src="images/malibu-bucket.png"/><h3>Malibu Bucket</h3><p>$16</p></div>
+        <div class="menu-item"><img src="images/paloma.png"/><h3>Paloma</h3><p>$10</p></div>
+        <div class="menu-item"><img src="images/cadillac-margarita.png"/><h3>Cadillac Margarita</h3><p>$18.50</p></div>
+        <div class="menu-item"><img src="images/margarita.png"/><h3>Margarita</h3><p>$12</p></div>
+        <div class="menu-item"><img src="images/trash-can-amf.png"/><h3>Trash Can / AMF</h3><p>$16</p></div>
+      </div>
+    </section>
+    <!-- Seafood -->
+    <section id="seafood" class="menu-section">
+      <h2>Seafood</h2>
+      <div class="menu-grid">
+        <div class="menu-item"><img src="images/camarones-al-mojo-de-ajo.png"/><h3>Camarones al Mojo de Ajo</h3><p>$25.99</p></div>
+        <div class="menu-item"><img src="images/camarones-a-la-diabla.png"/><h3>Camarones a la Diabla</h3><p>$25.99</p></div>
+        <div class="menu-item"><img src="images/camarones-empanizados.png"/><h3>Camarones Empanizados</h3><p>$25.99</p></div>
+        <div class="menu-item"><img src="images/camarones-a-la-plancha.png"/><h3>Camarones a la Plancha</h3><p>$25.99</p></div>
+        <div class="menu-item"><img src="images/mojarra.png"/><h3>Mojarra</h3><p>$24.99</p></div>
+        <div class="menu-item"><img src="images/filete-empapelado.png"/><h3>Filete Empapelado</h3><p>$24.99</p></div>
+        <div class="menu-item"><img src="images/tacos-de-pescado.png"/><h3>Tacos de Pescado</h3><p>$14.99</p></div>
+        <div class="menu-item"><img src="images/tacos-gobernador.png"/><h3>Tacos Gobernador</h3><p>$15.99</p></div>
+      </div>
+    </section>
+    <!-- Appetizers -->
+    <section id="appetizers" class="menu-section">
+      <h2>Appetizers</h2>
+      <div class="menu-grid">
+        <div class="menu-item"><img src="images/papas-con-queso-y-camaron.png"/><h3>Papas con Queso y Camarón</h3><p>$12.99</p></div>
+        <div class="menu-item"><img src="images/nachos-con-carne.png"/><h3>Nachos con Carne</h3><p>$13.99</p></div>
+        <div class="menu-item"><img src="images/tacos-dorados.png"/><h3>Tacos Dorados</h3><p>$9.99</p></div>
+        <div class="menu-item"><img src="images/choriqueso.png"/><h3>Choriqueso</h3><p>$11.99</p></div>
+      </div>
+    </section>
+    <!-- Tasty Snacks -->
+    <section id="snacks" class="menu-section">
+      <h2>Tasty Snacks</h2>
+      <div class="menu-grid">
+        <div class="menu-item"><img src="images/chicharrones-preparados.png"/><h3>Chicharrones Preparados</h3><p>$10.99</p></div>
+        <div class="menu-item"><img src="images/tostilocos.png"/><h3>Tostilocos</h3><p>$8.99</p></div>
+        <div class="menu-item"><img src="images/pepihuates.png"/><h3>Pepihuates</h3><p>$7.99</p></div>
+        <div class="menu-item"><img src="images/elote-en-vaso.png"/><h3>Elote en Vaso</h3><p>$5.99</p></div>
+        <div class="menu-item"><img src="images/vasito-de-frutas-con-chamoy.png"/><h3>Vasito de Frutas con Chamoy</h3><p>$6.99</p></div>
+        <div class="menu-item"><img src="images/cueritos-en-salsa.png"/><h3>Cueritos en Salsa</h3><p>$8.49</p></div>
+      </div>
+    </section>
+    <!-- Special Food Menu -->
+    <section id="food-menu" class="menu-section">
+      <h2>Special Food Menu</h2>
+      <div class="menu-grid">
+        <div class="menu-item"><img src="images/platillo-de-carne-asada.png"/><h3>Platillo de Carne Asada</h3><p>$18.99</p></div>
+        <div class="menu-item"><img src="images/enchiladas-rojas-o-verdes.png"/><h3>Enchiladas Rojas o Verdes</h3><p>$14.99</p></div>
+        <div class="menu-item"><img src="images/fajitas-mixtas.png"/><h3>Fajitas Mixtas</h3><p>$19.99</p></div>
+        <div class="menu-item"><img src="images/alitas-buffalo.png"/><h3>Alitas (Buffalo)</h3><p>$12.99</p></div>
+        <div class="menu-item"><img src="images/alitas-mango-habanero.png"/><h3>Alitas (Mango Habanero)</h3><p>$12.99</p></div>
+        <div class="menu-item"><img src="images/alitas-bbq.png"/><h3>Alitas (BBQ)</h3><p>$12.99</p></div>
+        <div class="menu-item"><img src="images/costillas-bbq.png"/><h3>Costillas BBQ</h3><p>$16.99</p></div>
+        <div class="menu-item"><img src="images/molcajete-la-malquerida.png"/><h3>Molcajete La Malquerida</h3><p>$29.99</p></div>
+      </div>
+    </section>
+    <!-- Special Dishes -->
+    <section id="special-dishes" class="menu-section">
+      <h2>Special Dishes</h2>
+      <div class="menu-grid">
+        <div class="menu-item"><img src="images/tacos-de-birria.png"/><h3>Tacos de Birria</h3><p>$11.99</p></div>
+        <div class="menu-item"><img src="images/quesabirrias.png"/><h3>Quesabirrias</h3><p>$12.99</p></div>
+        <div class="menu-item"><img src="images/birria-ramen.png"/><h3>Birria Ramen</h3><p>$14.99</p></div>
+        <div class="menu-item"><img src="images/pozole-rojo.png"/><h3>Pozole Rojo (Sábados y Domingos)</h3><p>$12.99</p></div>
+        <div class="menu-item"><img src="images/menudo.png"/><h3>Menudo (Fines de Semana)</h3><p>$11.99</p></div>
+      </div>
+    </section>
+    <!-- Burritos & Meats -->
+    <section id="burritos-meats" class="menu-section">
+      <h2>Burritos & Meats</h2>
+      <div class="menu-grid">
+        <div class="menu-item"><img src="images/burrito-de-asada.png"/><h3>Burrito de Asada</h3><p>$9.99</p></div>
+        <div class="menu-item"><img src="images/burrito-de-pastor.png"/><h3>Burrito de Pastor</h3><p>$9.99</p></div>
+        <div class="menu-item"><img src="images/burrito-de-pollo.png"/><h3>Burrito de Pollo</h3><p>$9.99</p></div>
+        <div class="menu-item"><img src="images/tacos-de-asada.png"/><h3>Tacos de Asada</h3><p>$3.50</p></div>
+        <div class="menu-item"><img src="images/tacos-de-pastor.png"/><h3>Tacos de Pastor</h3><p>$3.50</p></div>
+        <div class="menu-item"><img src="images/tacos-de-pollo.png"/><h3>Tacos de Pollo</h3><p>$3.50</p></div>
+        <div class="menu-item"><img src="images/tacos-de-chorizo.png"/><h3>Tacos de Chorizo</h3><p>$3.50</p></div>
+        <div class="menu-item"><img src="images/carne-asada-fries.png"/><h3>Carne Asada Fries</h3><p>$10.99</p></div>
+      </div>
+    </section>
+    <!-- Torres -->
+    <section id="torres" class="menu-section">
+      <h2>Torres</h2>
+      <div class="menu-grid">
+        <div class="menu-item"><img src="images/torre-de-mariscos.png"/><h3>Torre de Mariscos</h3><p>$45.99</p></div>
+        <div class="menu-item"><img src="images/torre-de-carne-asada.png"/><h3>Torre de Carne Asada</h3><p>$39.99</p></div>
+        <div class="menu-item"><img src="images/torre-mixta.png"/><h3>Torre Mixta</h3><p>$42.99</p></div>
+      </div>
+    </section>
+  </main>
+  <footer></footer>
+  <script src="script.js" defer></script>
+</body>
+</html>

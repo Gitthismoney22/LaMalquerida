@@ -1,0 +1,11 @@
+/* About page centering and Algerian font */
+@font-face {
+  font-family: 'Algerian';
+  src: local('Algerian'), local('Algerian-Regular');
+}
+.about-story, .about-story h2,
+.about-mission, .about-mission h2,
+.about-team, .about-team h2 {
+  text-align: center;
+  font-family: 'Algerian', serif;
+}

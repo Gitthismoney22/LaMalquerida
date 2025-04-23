@@ -1,0 +1,15 @@
+/* Gallery title font */
+@font-face {
+  font-family: 'MalqueridaLettering';
+  src: url('fonts/MalqueridaLettering.woff2') format('woff2'),
+       url('fonts/MalqueridaLettering.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.gallery-title {
+  font-family: 'MalqueridaLettering', cursive;
+  text-align: center;
+  margin: 2rem 0 1rem;
+  font-size: 3rem;
+}

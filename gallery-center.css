@@ -1,0 +1,23 @@
+/* Center the first three photos under the gallery title */
+.gallery-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;  /* center all items */
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.gallery-container img {
+  width: 30%;
+  height: auto;
+  object-fit: cover;
+  border-radius: 0.25rem;
+}
+
+.gallery-placeholder {
+  flex: 1 1 calc(33.333% - 0.667rem);
+  aspect-ratio: 4 / 3;
+  border: 1px dashed #ccc;
+  border-radius: 0.25rem;
+  background-color: transparent;
+}

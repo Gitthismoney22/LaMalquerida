@@ -1,0 +1,15 @@
+/* Testimonials page centering and Algerian font */
+@font-face {
+  font-family: 'Algerian';
+  src: local('Algerian'), local('Algerian-Regular');
+}
+
+.testimonials {
+  text-align: center;
+  font-family: 'Algerian', serif;
+  padding: 2rem;
+}
+
+.testimonials h2 {
+  font-family: 'Algerian', serif;
+}

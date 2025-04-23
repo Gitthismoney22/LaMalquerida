@@ -1,0 +1,12 @@
+/* header-logo.css */
+/* Styles for bottom-centered header logo placeholder */
+
+.header-logo-bottom {
+  text-align: center;
+  margin-top: 1rem; /* space above the logo */
+}
+
+.header-logo-bottom .logo-bottom {
+  max-width: 120px; /* adjust as needed */
+  height: auto;
+}

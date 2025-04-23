@@ -1,0 +1,24 @@
+/* home-update.css */
+/* Centered instructional placeholder text in Algerian font */
+
+@font-face {
+  font-family: 'Algerian';
+  src: local('Algerian'), local('Algerian-Regular');
+}
+
+.home-main .home-hero {
+  text-align: center;
+  font-family: 'Algerian', serif;
+  max-width: 800px;
+  margin: 2rem auto;
+}
+
+.home-main .home-hero h2 {
+  margin-top: 1.5rem;
+  font-size: 2.5rem;
+}
+
+.home-main .home-hero p {
+  margin: 1rem 0;
+  line-height: 1.5;
+}
