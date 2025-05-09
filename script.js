@@ -21,7 +21,9 @@ const translations = {
     'burritos-meats': 'Burritos & Meats',
     torres: 'Torres',
     welcome_section: 'Welcome Section',
-    hero_instruction: '[HERO IMAGE GOES HERE] This prime real-estate is your hero banner—swap in a stunning, high-resolution photo of your signature dish or your vibrant dining room. It sets the tone for every visitor's first impression.',
+    hero_instruction: `[HERO IMAGE GOES HERE] 
+This prime real estate is your hero banner—swap in a stunning, high-resolution photo of your signature dish or your vibrant dining room. 
+It sets the tone for every visitor's first impression.`,
     intro_message: '[WELCOME MESSAGE HERE] Use this space to greet guests and tell them what makes La Malquerida special. A short, punchy sentence or two is perfect: "Bold Mexican seafood, handcrafted cocktails, and a lively atmosphere await you."',
     our_story: 'Our Story',
     mission: 'Mission & Values',
@@ -57,7 +59,9 @@ const translations = {
     'burritos-meats': 'Burritos y Carnes',
     torres: 'Torres',
     welcome_section: 'Sección de Bienvenida',
-    hero_instruction: '[AQUÍ VA LA IMAGEN PRINCIPAL] Este espacio es tu banner principal—coloca una foto de alta resolución de tu platillo estrella o de tu vibrante comedor. Marca el tono para cada visitante.',
+    hero_instruction: `[AQUÍ VA LA IMAGEN PRINCIPAL] 
+Este espacio es tu banner principal—coloca una foto de alta resolución de tu platillo estrella o de tu vibrante comedor. 
+Marca el tono para cada visitante.`,
     intro_message: '[MENSAJE DE BIENVENIDA AQUÍ] Usa este espacio para saludar a los clientes y decirles qué hace especial a La Malquerida. Una frase breve y directa: "Mariscos mexicanos audaces, cócteles artesanales y ambiente vibrante te esperan."',
     our_story: 'Nuestra Historia',
     mission: 'Misión y Valores',
