@@ -1,12 +1,30 @@
 /* header-logo.css */
-/* Styles for bottom-centered header logo placeholder */
+.logo-top {
+  text-align: center;
+  padding: 1rem;
+}
+
+.logo-center {
+  max-width: 150px;
+  height: auto;
+}
 
 .header-logo-bottom {
   text-align: center;
-  margin-top: 1rem; /* space above the logo */
+  margin-top: 1rem;
 }
 
 .header-logo-bottom .logo-bottom {
-  max-width: 120px; /* adjust as needed */
+  max-width: 100px;
   height: auto;
+}
+
+@media (max-width: 768px) {
+  .logo-center {
+    max-width: 120px;
+  }
+
+  .header-logo-bottom .logo-bottom {
+    max-width: 80px;
+  }
 }
